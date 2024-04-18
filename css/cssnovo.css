@@ -326,6 +326,14 @@ body {
 .logo{
   width: 50vw;
 }
+@media (max-width: 768px) {
+  .cha {
+      font-size: 3vh; /* Reduzindo o tamanho da fonte para dispositivos móveis */
+      margin-top: -25px; /* Ajustando a margem superior para dispositivos móveis */
+  }
+}
+
+
   .chamada h1{
       color:#eef40c;
       font-size: 10vh;
