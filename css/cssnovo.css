@@ -350,24 +350,30 @@ body {
 
   /* ACIMA DA NAV */
   .top-top{
-    display:flex;
-    height:5vh;
+    display: flex;
+    height: 15vh;
     background-color: #eef40c;
-   color:rgb(119, 118, 118);
-   align-items: center;
-   padding-top:2vh;
-   justify-content: space-around;
-   font-weight: 200;
+    /* color: rgb(119, 118, 118); */
+    /* padding-top: 9vh; */
+    justify-content: center;
+    font-weight: 200;
+    flex-direction: row;
+    margin-bottom: -71px;
+    flex-direction: column-reverse;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    }
  
 
-  }
+  
   .top-top > p{
     margin-right: 20px;
   
   }
   .midias-sociais li {
     display:inline;
-    font-size: 20px;
+    font-size: 64px;
     margin-right: 20px;
  
   }
@@ -447,6 +453,20 @@ body {
   .logo {
     font-size: 150px;
   }
+  .top-top{
+    display: flex;
+    height: 24vh;
+    background-color: #eef40c;
+    /* color: rgb(119, 118, 118); */
+    align-items: center;
+    /* padding-top: 9vh; */
+    justify-content: center;
+    font-weight: 200;
+    align-content: center;
+    flex-direction: column;
+    margin-bottom: -71px;
+    flex-direction: column-reverse;
+    }
 }
 
 .new-box ul{

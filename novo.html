@@ -19,6 +19,8 @@
 
 
      <style>
+      @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
       .somos{
         text-align: center;
       }
@@ -27,63 +29,99 @@
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
 <!-- IMG top -->
   <style>
-   .container1 {
-      position: relative;
-      text-align: center;
-      width: 100%;
-      margin-right: auto;
-      margin-left: auto;
-}
+          .container1 {
+            position: relative;
+            text-align: center;
+            width: 100%;
+            margin-right: auto;
+            margin-left: auto;
+        }
 
 
-.imagem-topo {
-  position: relative;
-  background-image: url('img/carroussel3.png');
-  background-size: cover;
-  background-position: center;
-  color: white;
-  padding: 100px 0; /* Ajuste conforme necessário */
-  width: 100%;
-  height: auto;
-}
+        .imagem-topo {
+          position: relative;
+          background-image: url('img/carroussel3.png');
+          background-size: cover;
+          background-position: center;
+          color: white;
+          padding: 100px 0; /* Ajuste conforme necessário */
+          width: 100%;
+          height: auto;
+        }
 
-.imagem-topo h1 {
-  font-size: 3em;
-}
+        .imagem-topo h1 {
+          font-size: 3em;
+        }
 
-.imagem-topo h2 {
-  font-size: 2em;
-  color: yellow; /* Cor amarela */
-}
+        .imagem-topo h2 {
+          font-size: 7em;
+          color: yellow; /* Cor amarela */
+        }
 
-.imagem-topo p {
-  font-size: 1.5em;
-  color: white; /* Ou cinza, conforme desejado */
-}
+        
+        .imagem-topo p {
+          font-size: 1em;
+          color: white;
+        }
 
-/* Ajuste para dispositivos grandes (PC) */
-@media only screen and (min-width: 768px) {
-  .imagem-topo {
-    padding: 100px 0; /* Ajuste conforme necessário */
-  }
-}
+        /* Ajuste para dispositivos grandes (PC) */
+        @media only screen and (min-width: 768px) {
+          .imagem-topo {
+            padding: 100px 0; /* Ajuste conforme necessário */
+          }
+          .imagem-topo p {
+            font-size: 2em;
+            color: white;
+            margin-top: -34px;
+          }
+          
 
-/* Ajuste para dispositivos pequenos (celulares) */
-@media only screen and (max-width: 768px) {
-  .imagem-topo {
-    padding: 100px 0; /* Ajuste conforme necessário */
-  }
-}
+        }
 
+        /* Ajuste para dispositivos pequenos (celulares) */
+        @media only screen and (max-width: 768px) {
+          .imagem-topo {
+            padding: 100px 0; /* Ajuste conforme necessário */
+          }
+          .imagem-topo h2 {
+            font-size: 5em;
+            color: yellow; /* Cor amarela */
+          }
+         
+        }
+        .titulo{
+          font-family: "Bebas Neue", sans-serif;
+          font-weight: 400;
+          font-style: normal;
+          font-size: 15px;
+        }
+        .paragrafo{
+          font-family: "system-ui", sans-serif;
+          font-weight: 100;
+          font-style: normal;
+          font-size: 10px;
+        }
   </style>
 
   <div class="container1">
     <div class="imagem-topo">
-      <h2>Sua Agência Digital</h2>
-      <p>Saiba o que podemos fazer por você</p>
+      <h2 class="titulo">Sua Agência Digital</h2>
+      <p class="paragrafo">Saiba o que podemos fazer por você</p>
     </div>
   </div>
 
+<!-- Qcontatos -->
+  <div class="container-fluid top-top">
+   
+    <p>E-mail: Registracamocim@gmail.com</p>
+    <ul style="padding: 0;" class="midias-sociais">
+
+      <li><a href="" ><i class="fab fa-facebook"></i></a></li>
+      <li><a href=""><i class="fab fa-instagram"></i></a></li>
+      <li><a href="" ><i class="fab fa-whatsapp"></i></a></li>
+  </ul>
+
+  </div>
 <!-- QUEM SOMOS -->
 
  <section>
