@@ -351,17 +351,17 @@ body {
   /* ACIMA DA NAV */
   .top-top{
     display: flex;
-    height: 15vh;
+    height: 24vh;
     background-color: #eef40c;
     /* color: rgb(119, 118, 118); */
+    align-items: center;
     /* padding-top: 9vh; */
     justify-content: center;
     font-weight: 200;
+    align-content: center;
     flex-direction: row;
     margin-bottom: -71px;
     flex-direction: column-reverse;
-    align-items: center;
-    align-content: center;
     flex-wrap: wrap;
     }
  
@@ -369,7 +369,7 @@ body {
   
   .top-top > p{
     margin-right: 20px;
-  
+    color: #000;
   }
   .midias-sociais li {
     display:inline;
@@ -378,7 +378,7 @@ body {
  
   }
   .midias-sociais li a{
-    color:rgb(151, 151, 151);
+    color:#0077FF;
   }
   .midias-sociais li a:hover {
     color:rgb(7, 7, 7);
@@ -457,15 +457,16 @@ body {
     display: flex;
     height: 24vh;
     background-color: #eef40c;
-    /* color: rgb(119, 118, 118); */
+     color: #0077FF;
     align-items: center;
     /* padding-top: 9vh; */
     justify-content: center;
     font-weight: 200;
     align-content: center;
-    flex-direction: column;
+    flex-direction: row-reverse;
     margin-bottom: -71px;
     flex-direction: column-reverse;
+    flex-wrap: nowrap;
     }
 }
 
