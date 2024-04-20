@@ -1,6 +1,7 @@
 body {
     font: 400 15px/1.8 Lato, sans-serif;
     color: #777;
+    overflow-x: hidden;
   }
   h3, h4 {
     margin: 10px 0 30px 0;
@@ -19,7 +20,9 @@ body {
   }
 
   /* MEDIA QUERIES */
-
+  p {
+    margin: 0 10px 10px;
+}
   
 
  
@@ -51,7 +54,7 @@ body {
 }
 .box{
    
-    box-shadow:10px 10px 6px #999;
+    box-shadow: 10px 10px 6px #99999930;
     border-radius:0 0 15px 0;
     padding:1%;
     margin:5vh auto;
@@ -211,10 +214,7 @@ body {
     padding-top:5vh;
     padding-bottom: 5vh;
   }
-  .navbar li a{
-    /* margin-top: 30px; */
-  
-  }
+ 
   .navbar-nav li a:hover {
     color: #fffdfd!important;
   }
